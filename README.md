@@ -1,52 +1,45 @@
-#  🚀 Capstone Boilerplate
+# Restaurant Review Website
 
-A template for building web applications using the PERN (PostgreSQL, Express.js, React, Node.js) stack. 
+A web application built with the PERN stack (PostgreSQL, Express, React, Node.js). Users can log in, review restaurants, and comment on reviews. Admin roles enable editing or deleting user content.
 
-##  🏁 Getting Started
+## Table of Contents
 
-1. **Don't fork or clone this repo!** Instead, create a new, empty directory on your machine and `git init` (or create an _empty_ repo on GitHub and clone it to your local machine)
+- [Introduction](#introduction)
+- [Features](#features)
+- [Admin Roles](#admin-roles)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
 
-2. Add this template as a remote and merge it into your own repository
+## Introduction
 
-```bash
-git remote add boilermaker git@github.com:FullstackAcademy/capstone-app-template.git
-git fetch boilermaker
-git merge boilermaker/main
-```
+"Fork-It" is a platform where users can share and explore restaurant reviews. It allows users to log in, post reviews, and engage with others through comments. The application also includes admin roles for content moderation.
 
-3. Install packages
+## Features
 
-```bash
-npm i
-```
+- User authentication
+- Restaurant reviews
+- Commenting on reviews
+  
 
-4. Add a `.env` file with your secret value for auth
-```
-JWT_SECRET='somesecretvalue'
-```
+  ## Admin Roles
 
-5. Create the database
+Admins have special roles that allow them to edit or delete user content as well as creating, updating, or deleting current restaurants from the database. This information can be viewed on the Admin panel, located in the profile tab if an adminnistrator is logged in. 
 
-```bash
-createdb your-database-name
-```
 
-6. Update `src/server/db/client.js` to reflect the name of your database
+## Technologies Used
 
-```js
-const connectionString = process.env.DATABASE_URL || 'https://localhost:5432/your-database-name';
-```
+- PostgreSQL
+- Express
+- React
+- Node.js
 
-7. Seed the database
-```bash
-npm run seed
-```
+### Installation
 
-8. Start the server
-```bash
-npm run dev
-```
+1. Clone the repository: `git clone https://github.com/your-username/restaurant-review.git`
+2. Install dependencies: `npm install`
+3. Configure environment variables.
 
-9. Open your browser at `http://localhost:3000`
 
-10. Build something cool! 😎
+
+
+
