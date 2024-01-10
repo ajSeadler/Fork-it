@@ -1,4 +1,5 @@
 # Restaurant Review Website
+<img width="1777" alt="fork-it" src="https://github.com/ajSeadler/Fork-it/assets/134530749/0c810468-8bbc-42b4-83ae-c6088250a729">
 
 A web application built with the PERN stack (PostgreSQL, Express, React, Node.js). Users can log in, review restaurants, and comment on reviews. Admin roles enable editing or deleting user content.
 
